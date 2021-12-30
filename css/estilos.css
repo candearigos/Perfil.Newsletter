@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.barranavegacion{
+    background-color: rgb(97, 124, 182);
+}
+
+.logo img{
+    width: 27%;
+    position: relative;
+    left: 80%;
+}
+.empresa{
+    position: relative;
+    right: 30%;
+    top: 10%;
+    font-family: 'Crimson Pro', serif;
+}
+.icono{
+    margin-left: 5%;
+}
+.botonuno, .botondos{
+    text-decoration: none;
+    background-color: rgb(97, 124, 182);
+    font-size: 17px;
+    color: white;
+    font-family: 'Crimson Pro', serif;
+    padding: 4%;
+}
+.botondos{
+    margin-right: 5%;
+    border-radius: 5%;
+    padding: 9%;
+}
+.botonuno{
+    border-radius: 3%;
+    margin-left: 16%;
+
+}
+.botonuno:hover, .botondos:hover{
+    color: white;
+    background-color: gray;
+}
+.sectionuno{
+    font-family: 'Crimson Pro', serif;
+    margin-top: 10%;
+}
+.sectionuno h1{
+    color: rgb(97, 124, 182);
+}
+.sectiondos{
+    font-family: 'Crimson Pro', serif;
+}
+
+/* cards */
+.carduno img{
+    width: 40%;
+}
+.carduno i{
+    font-size: 28px;
+    margin-left: 40%;
+   position: relative;
+   top: -10%;
+   color: rgb(204, 161, 112)  ;
+}
+.carduno i:hover{
+    color: rgb(167, 186, 228);
+}
+.vermas{
+    text-decoration: none;
+    background-color: rgb(204, 161, 112) ;
+    color: white;
+    border-radius: 5%;
+    padding: 2%;
+}
